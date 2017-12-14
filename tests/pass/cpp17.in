@@ -1,0 +1,13 @@
+class foo {
+public:
+	int a, b, c;
+};
+
+class bar {
+private:
+	void f() {}
+	void g() {
+		int gg = 2;
+		f();
+	};
+} aa, bb, cc;

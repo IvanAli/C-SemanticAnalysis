@@ -1,0 +1,13 @@
+int a = 2, b = 3;
+
+int f(int a, int b) {
+	int ret = 0;
+//	do something	
+	return ret;
+}
+
+
+int main() {
+	int ans = f(a, b);
+	return 0;
+}
